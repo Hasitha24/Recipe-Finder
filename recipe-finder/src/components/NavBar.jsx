@@ -1,10 +1,10 @@
-import {Link, Links} from "react-router";
+// import {Link, Links} from "react-router";
 
-function NavBar(){
+// function NavBar(){
     return(
 <div className="navbar">
     <div className="nav-links">
-        {Links.map(link =>())}
+        {/* {Links.map(link =>())} */}
         <a href="#">Home</a>
         <a href="#">Recipes</a>
         <a href="#">About</a>
