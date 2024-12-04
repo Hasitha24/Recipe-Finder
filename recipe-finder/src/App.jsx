@@ -5,6 +5,9 @@ function App() {
    
     <div className="App">
       <NavBar/>
+      <div className="container main">
+        Hello
+      </div>
     </div>
   );
 }

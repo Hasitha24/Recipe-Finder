@@ -1,5 +1,8 @@
+import Sidebar from "./Sidebar";
+
 function NavBar(){
 return(
+    <>
    <div className="navbar container">
     <a href="#" className="logo">Logo</a>
     <div className="nav-links">
@@ -8,9 +11,13 @@ return(
         <a href="#">Settings</a>
     </div>
     <div className="sidebar-btn">
-        Hello
+        <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
     </div>
    </div>
+   <Sidebar/>
+   </>
 );
 }
 

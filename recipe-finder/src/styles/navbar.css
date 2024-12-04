@@ -1,0 +1,40 @@
+.nav-links{
+    a{
+        margin-left: 1em;
+        color: white;
+        letter-spacing: 1px;
+    }
+    }
+    
+    .navbar{
+        height: 55px;
+        background-color: red;
+        box-shadow: 0.5px;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+            
+        
+    }
+    
+    .navbar .sidebar-btn{
+        height: 32 px;
+        width: 35px;
+        background-color: blue ;
+        position: relative;
+    }
+    
+    .navbar .sidebar-btn .bar{
+        height: 8px;
+        width: 100%;
+        background-color: black;
+        position: absolute;
+    }
+    .navbar .logo{
+        font-size: 1.2em;
+        font-weight: bold;
+        color: black;
+    }
+    
+    
