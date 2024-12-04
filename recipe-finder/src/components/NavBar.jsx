@@ -1,19 +1,17 @@
-// import {Link, Links} from "react-router";
-
-// function NavBar(){
-    return(
-<div className="navbar">
+function NavBar(){
+return(
+   <div className="navbar container">
+    <a href="#" className="logo">Logo</a>
     <div className="nav-links">
-        {/* {Links.map(link =>())} */}
         <a href="#">Home</a>
         <a href="#">Recipes</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        <a href="#">Settings</a>
     </div>
- </div>
- 
-    );
-
+    <div className="sidebar-btn">
+        Hello
+    </div>
+   </div>
+);
 }
 
 export default NavBar
